@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -23,9 +20,70 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
+  text-align: center;
+}
+
+header {
+  display: inline;
+  margin: 20px;
+}
+
+.linkheader {
+  padding: 15px 10px;
+  margin: 50px 0px;
+}
+
+.button {
+  width: 50px;
+}
+
+.buttontxt {
+  background-color: red;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 25px;
+  width: 150px;
+  margin: 20px 100px ;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 1.2s;
+  font-family: 'Sorts Mill Goudy', serif;
+  padding: 0px 30px;
+}
+
+h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0px 0px 40px;
+}
+
+h3 {
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+h4 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size:  20px;
+  line-height: 1.2;
+}
+
+p {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 20px 20px 20px 20px;
+}
+
+.thisweek {
+  background-color: aliceblue;
+  padding-top: 30px ;
 }
 
 a {
@@ -37,6 +95,18 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 40px 210px 40px 20px;
+  text-align: left;
+}
+
+.article {
+  font-size: 20px;
+  font-family: 'Libre frankelin', sans-serif;
 }
 
 /* ====================================
